@@ -1,11 +1,12 @@
 import './style.css'
 import { merge } from './merge.js';
 import {fetcher} from './component/Fetcher.js';
+import {filterName} from './component/Filter.js';
 
 
 document.querySelector('#app').innerHTML = `
   <div id="app">
-   
+  
     <div class = "table-row">
       <div class = "table-col head" >S.No.</div>
       <div class = "table-col head" >Image</div>
@@ -27,7 +28,7 @@ document.querySelector('#app').innerHTML = `
   </div>
 `;
 
-
+// filterName();
 let arr1 = [];
 let arr2 = [];
 
